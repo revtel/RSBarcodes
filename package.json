@@ -1,0 +1,16 @@
+{
+  "name": "RSBarcodes",
+  "version": "0.1.4",
+  "description": "RSBarcodes",
+  "main": "NfcManager",
+  "files": [
+    "Products",
+    "RSBarcodes",
+    "RSBarcodes.podspec"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Richie",
+    "url": "https://github.com/whitedogg13"
+  }
+}
