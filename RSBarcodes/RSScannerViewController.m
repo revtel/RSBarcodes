@@ -250,11 +250,14 @@ NSString *const AVMetadataObjectTypeFace = @"face";
 - (void)viewDidLayoutSubviews {
     [super viewDidLayoutSubviews];
     
+    // cannot pass build during Today Widget dev
+    /*
     AVCaptureVideoOrientation target = [self __interfaceOrientationToVideoOrientation:[[UIApplication sharedApplication] statusBarOrientation]];
     AVCaptureVideoOrientation source = self.layer.connection.videoOrientation;
     if (self.layer.connection.supportsVideoOrientation && source != target) {
         self.layer.connection.videoOrientation = target;
     }
+    */
 }
 
 - (void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id<UIViewControllerTransitionCoordinator>)coordinator {
