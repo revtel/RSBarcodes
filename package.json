@@ -1,8 +1,8 @@
 {
-  "name": "RSBarcodes",
-  "version": "0.13.0",
-  "description": "RSBarcodes",
-  "main": "NfcManager",
+  "name": "RevRSBarcodes",
+  "version": "0.0.1",
+  "description": "RevRSBarcodes",
+  "main": "RevRSBarcodes",
   "files": [
     "Products",
     "RSBarcodes",
